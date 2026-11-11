@@ -1,0 +1,673 @@
+{
+  "ranAt": "2026-11-11T06:28:11.529Z",
+  "pass": 4,
+  "total": 5,
+  "results": [
+    {
+      "id": "pcb-48211",
+      "ok": true,
+      "ms": 16375,
+      "model": "google/gemini-2.5-flash",
+      "diffs": [],
+      "extraction": {
+        "broker": {
+          "name": "Pacific Crest Customs Brokerage",
+          "invoiceNumber": "PCB-48211",
+          "invoiceDate": "2025-10-24",
+          "dueDate": "2025-11-23"
+        },
+        "importer": {
+          "name": "Northgate Home Goods, Inc.",
+          "importerNumber": "84-2917465-00"
+        },
+        "entry": {
+          "entryNumber": "PC7-4821104-6",
+          "entryDate": "2025-10-20",
+          "port": "2704 Los Angeles, CA",
+          "mode": "ocean"
+        },
+        "lines": [
+          {
+            "lineNo": 1,
+            "description": "Drip coffee makers, household",
+            "hts": "8516.71.0020",
+            "origin": "CN",
+            "enteredValue": 84200,
+            "page": 2,
+            "tariffs": [
+              {
+                "code": "8516.71.0020",
+                "description": "Coffee makers, general rate",
+                "ratePct": 3.7,
+                "dutyFiled": 3115.4,
+                "page": 2,
+                "quote": "8516.71.0020 | Coffee makers, general rate | 3.7% | $3,115.40"
+              },
+              {
+                "code": "9903.88.15",
+                "description": "Section 301 List 4A",
+                "ratePct": 7.5,
+                "dutyFiled": 6315,
+                "page": 2,
+                "quote": "9903.88.15 | Section 301 List 4A | 7.5% | $6,315.00"
+              },
+              {
+                "code": "9903.01.24",
+                "description": "IEEPA fentanyl (China)",
+                "ratePct": 20,
+                "dutyFiled": 16840,
+                "page": 2,
+                "quote": "9903.01.24 | IEEPA fentanyl (China) | 20% | $16,840.00"
+              },
+              {
+                "code": "9903.01.25",
+                "description": "IEEPA reciprocal",
+                "ratePct": 10,
+                "dutyFiled": 8420,
+                "page": 2,
+                "quote": "9903.01.25 | IEEPA reciprocal | 10% | $8,420.00"
+              }
+            ]
+          },
+          {
+            "lineNo": 2,
+            "description": "Backpacks, man-made fiber",
+            "hts": "4202.92.3131",
+            "origin": "CN",
+            "enteredValue": 31500,
+            "page": 2,
+            "tariffs": [
+              {
+                "code": "4202.92.3131",
+                "description": "Backpacks, general rate",
+                "ratePct": 17.6,
+                "dutyFiled": 5544,
+                "page": 2,
+                "quote": "4202.92.3131 | Backpacks, general rate | 17.6% | $5,544.00"
+              },
+              {
+                "code": "9903.88.03",
+                "description": "Section 301 List 3",
+                "ratePct": 25,
+                "dutyFiled": 7875,
+                "page": 2,
+                "quote": "9903.88.03 | Section 301 List 3 | 25% | $7,875.00"
+              },
+              {
+                "code": "9903.01.24",
+                "description": "IEEPA fentanyl (China)",
+                "ratePct": 20,
+                "dutyFiled": 6300,
+                "page": 2,
+                "quote": "9903.01.24 | IEEPA fentanyl (China) | 20% | $6,300.00"
+              },
+              {
+                "code": "9903.01.25",
+                "description": "IEEPA reciprocal",
+                "ratePct": 10,
+                "dutyFiled": 3150,
+                "page": 2,
+                "quote": "9903.01.25 | IEEPA reciprocal | 10% | $3,150.00"
+              }
+            ]
+          }
+        ],
+        "cbp": {
+          "totalDuty": 57559.4,
+          "mpf": 400.78,
+          "hmf": 144.63,
+          "page": 2
+        },
+        "invoice": {
+          "charges": [
+            {
+              "label": "Customs duty advanced on your behalf",
+              "kind": "duty",
+              "amount": 57559.4,
+              "page": 1,
+              "quote": "Customs duty advanced on your behalf | $57,559.40"
+            },
+            {
+              "label": "Merchandise processing fee (MPF)",
+              "kind": "mpf",
+              "amount": 400.78,
+              "page": 1,
+              "quote": "Merchandise processing fee (MPF) | $400.78"
+            },
+            {
+              "label": "Harbor maintenance fee (HMF)",
+              "kind": "hmf",
+              "amount": 144.63,
+              "page": 1,
+              "quote": "Harbor maintenance fee (HMF) | $144.63"
+            },
+            {
+              "label": "Entry filing fee",
+              "kind": "brokerage",
+              "amount": 185,
+              "page": 1,
+              "quote": "Entry filing fee | $185.00"
+            },
+            {
+              "label": "ISF filing",
+              "kind": "brokerage",
+              "amount": 45,
+              "page": 1,
+              "quote": "ISF filing | $45.00"
+            }
+          ],
+          "total": 58334.81,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "hbl-20931",
+      "ok": true,
+      "ms": 14149,
+      "model": "google/gemini-2.5-flash",
+      "diffs": [],
+      "extraction": {
+        "broker": {
+          "name": "Harborline Logistics LLC",
+          "invoiceNumber": "HL-20931",
+          "invoiceDate": "2025-12-19",
+          "dueDate": "2026-01-18"
+        },
+        "importer": {
+          "name": "Northgate Home Goods, Inc.",
+          "importerNumber": "84-2917465-00"
+        },
+        "entry": {
+          "entryNumber": "HB2-2093117-3",
+          "entryDate": "2025-12-15",
+          "port": "2809 San Francisco / Oakland, CA",
+          "mode": "ocean"
+        },
+        "lines": [
+          {
+            "lineNo": 1,
+            "description": "Steel hex bolts and fasteners",
+            "hts": "7318.15.2065",
+            "origin": "CN",
+            "enteredValue": 52000,
+            "page": 2,
+            "tariffs": [
+              {
+                "code": "7318.15.2065",
+                "description": "Steel bolts, general rate",
+                "ratePct": 0,
+                "dutyFiled": 0,
+                "page": 2,
+                "quote": "7318.15.2065 | Steel bolts, general rate | Free | $0.00"
+              },
+              {
+                "code": "9903.81.90",
+                "description": "Section 232 steel derivatives",
+                "ratePct": 50,
+                "dutyFiled": 26000,
+                "page": 2,
+                "quote": "9903.81.90 | Section 232 steel derivatives | 50% | $26,000.00"
+              },
+              {
+                "code": "9903.88.03",
+                "description": "Section 301 List 3",
+                "ratePct": 25,
+                "dutyFiled": 13000,
+                "page": 2,
+                "quote": "9903.88.03 | Section 301 List 3 | 25% | $13,000.00"
+              },
+              {
+                "code": "9903.01.24",
+                "description": "IEEPA fentanyl (China)",
+                "ratePct": 10,
+                "dutyFiled": 5200,
+                "page": 2,
+                "quote": "9903.01.24 | IEEPA fentanyl (China) | 10% | $5,200.00"
+              },
+              {
+                "code": "9903.01.25",
+                "description": "IEEPA reciprocal",
+                "ratePct": 10,
+                "dutyFiled": 5200,
+                "page": 2,
+                "quote": "9903.01.25 | IEEPA reciprocal | 10% | $5,200.00"
+              }
+            ]
+          },
+          {
+            "lineNo": 2,
+            "description": "Wooden bedroom furniture",
+            "hts": "9403.60.8081",
+            "origin": "CN",
+            "enteredValue": 40000,
+            "page": 2,
+            "tariffs": [
+              {
+                "code": "9403.60.8081",
+                "description": "Wood furniture, general rate",
+                "ratePct": 0,
+                "dutyFiled": 0,
+                "page": 2,
+                "quote": "9403.60.8081 | Wood furniture, general rate | Free | $0.00"
+              },
+              {
+                "code": "9903.88.03",
+                "description": "Section 301 List 3",
+                "ratePct": 25,
+                "dutyFiled": 10000,
+                "page": 2,
+                "quote": "9903.88.03 | Section 301 List 3 | 25% | $10,000.00"
+              },
+              {
+                "code": "9903.01.24",
+                "description": "IEEPA fentanyl (China)",
+                "ratePct": 10,
+                "dutyFiled": 4000,
+                "page": 2,
+                "quote": "9903.01.24 | IEEPA fentanyl (China) | 10% | $4,000.00"
+              },
+              {
+                "code": "9903.01.25",
+                "description": "IEEPA reciprocal",
+                "ratePct": 10,
+                "dutyFiled": 4000,
+                "page": 2,
+                "quote": "9903.01.25 | IEEPA reciprocal | 10% | $4,000.00"
+              }
+            ]
+          }
+        ],
+        "cbp": {
+          "totalDuty": 67400,
+          "mpf": 318.69,
+          "hmf": 115,
+          "page": 2
+        },
+        "invoice": {
+          "charges": [
+            {
+              "label": "Customs duty advanced on your behalf",
+              "kind": "duty",
+              "amount": 67400,
+              "page": 1,
+              "quote": "Customs duty advanced on your behalf | $67,400.00"
+            },
+            {
+              "label": "Merchandise processing fee (MPF)",
+              "kind": "mpf",
+              "amount": 318.69,
+              "page": 1,
+              "quote": "Merchandise processing fee (MPF) | $318.69"
+            },
+            {
+              "label": "Harbor maintenance fee (HMF)",
+              "kind": "hmf",
+              "amount": 115,
+              "page": 1,
+              "quote": "Harbor maintenance fee (HMF) | $115.00"
+            },
+            {
+              "label": "Customs entry service",
+              "kind": "brokerage",
+              "amount": 165,
+              "page": 1,
+              "quote": "Customs entry service | $165.00"
+            },
+            {
+              "label": "ISF filing",
+              "kind": "brokerage",
+              "amount": 40,
+              "page": 1,
+              "quote": "ISF filing | $40.00"
+            }
+          ],
+          "total": 68038.69,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "pcb-48390",
+      "ok": true,
+      "ms": 12825,
+      "model": "google/gemini-2.5-flash",
+      "diffs": [],
+      "extraction": {
+        "broker": {
+          "name": "Pacific Crest Customs Brokerage",
+          "invoiceNumber": "PCB-48390",
+          "invoiceDate": "2026-01-27",
+          "dueDate": "2026-02-26"
+        },
+        "importer": {
+          "name": "Northgate Home Goods, Inc.",
+          "importerNumber": "84-2917465-00"
+        },
+        "entry": {
+          "entryNumber": "PC7-4839002-1",
+          "entryDate": "2026-01-22",
+          "port": "2704 Los Angeles, CA",
+          "mode": "ocean"
+        },
+        "lines": [
+          {
+            "lineNo": 1,
+            "description": "Backpacks, man-made fiber",
+            "hts": "4202.92.3131",
+            "origin": "CN",
+            "enteredValue": 60000,
+            "page": 2,
+            "tariffs": [
+              {
+                "code": "4202.92.3131",
+                "description": "Backpacks, general rate",
+                "ratePct": 17.6,
+                "dutyFiled": 10560,
+                "page": 2,
+                "quote": "4202.92.3131 | Backpacks, general rate | 17.6% | $10,560.00"
+              },
+              {
+                "code": "9903.88.03",
+                "description": "Section 301 List 3",
+                "ratePct": 25,
+                "dutyFiled": 15000,
+                "page": 2,
+                "quote": "9903.88.03 | Section 301 List 3 | 25% | $15,000.00"
+              },
+              {
+                "code": "9903.01.24",
+                "description": "IEEPA fentanyl (China)",
+                "ratePct": 20,
+                "dutyFiled": 12000,
+                "page": 2,
+                "quote": "9903.01.24 | IEEPA fentanyl (China) | 20% | $12,000.00"
+              },
+              {
+                "code": "9903.01.25",
+                "description": "IEEPA reciprocal",
+                "ratePct": 10,
+                "dutyFiled": 6000,
+                "page": 2,
+                "quote": "9903.01.25 | IEEPA reciprocal | 10% | $6,000.00"
+              }
+            ]
+          }
+        ],
+        "cbp": {
+          "totalDuty": 43560,
+          "mpf": 207.84,
+          "hmf": 75,
+          "page": 2
+        },
+        "invoice": {
+          "charges": [
+            {
+              "label": "Customs duty advanced on your behalf",
+              "kind": "duty",
+              "amount": 45960,
+              "page": 1,
+              "quote": "Customs duty advanced on your behalf | $45,960.00"
+            },
+            {
+              "label": "Merchandise processing fee (MPF)",
+              "kind": "mpf",
+              "amount": 207.84,
+              "page": 1,
+              "quote": "Merchandise processing fee (MPF) | $207.84"
+            },
+            {
+              "label": "Harbor maintenance fee (HMF)",
+              "kind": "hmf",
+              "amount": 75,
+              "page": 1,
+              "quote": "Harbor maintenance fee (HMF) | $75.00"
+            },
+            {
+              "label": "Entry filing fee",
+              "kind": "brokerage",
+              "amount": 185,
+              "page": 1,
+              "quote": "Entry filing fee | $185.00"
+            },
+            {
+              "label": "ISF filing",
+              "kind": "brokerage",
+              "amount": 45,
+              "page": 1,
+              "quote": "ISF filing | $45.00"
+            }
+          ],
+          "total": 46472.84,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "hbl-21007",
+      "ok": false,
+      "ms": 11883,
+      "model": "google/gemini-2.5-flash",
+      "diffs": [
+        "C5.kind: got \"other\", want \"brokerage\""
+      ],
+      "extraction": {
+        "broker": {
+          "name": "Harborline Logistics LLC",
+          "invoiceNumber": "HL-21007",
+          "invoiceDate": "2025-10-09",
+          "dueDate": "2025-11-08"
+        },
+        "importer": {
+          "name": "Northgate Home Goods, Inc.",
+          "importerNumber": "84-2917465-00"
+        },
+        "entry": {
+          "entryNumber": "HB2-2100708-9",
+          "entryDate": "2025-10-05",
+          "port": "2720 Los Angeles Intl Airport, CA",
+          "mode": "air"
+        },
+        "lines": [
+          {
+            "lineNo": 1,
+            "description": "Men's cotton T-shirts, knit",
+            "hts": "6109.10.0012",
+            "origin": "VN",
+            "enteredValue": 28000,
+            "page": 2,
+            "tariffs": [
+              {
+                "code": "6109.10.0012",
+                "description": "Cotton T-shirts, general rate",
+                "ratePct": 16.5,
+                "dutyFiled": 4620,
+                "page": 2,
+                "quote": "6109.10.0012 | Cotton T-shirts, general rate | 16.5% | $4,620.00"
+              },
+              {
+                "code": "9903.02.69",
+                "description": "IEEPA reciprocal (Vietnam)",
+                "ratePct": 20,
+                "dutyFiled": 5600,
+                "page": 2,
+                "quote": "9903.02.69 | IEEPA reciprocal (Vietnam) | 20% | $5,600.00"
+              }
+            ]
+          }
+        ],
+        "cbp": {
+          "totalDuty": 10220,
+          "mpf": 96.99,
+          "hmf": 0,
+          "page": 2
+        },
+        "invoice": {
+          "charges": [
+            {
+              "label": "Customs duty advanced on your behalf",
+              "kind": "duty",
+              "amount": 10220,
+              "page": 1,
+              "quote": "Customs duty advanced on your behalf | $10,220.00"
+            },
+            {
+              "label": "Merchandise processing fee (MPF)",
+              "kind": "mpf",
+              "amount": 96.99,
+              "page": 1,
+              "quote": "Merchandise processing fee (MPF) | $96.99"
+            },
+            {
+              "label": "Customs entry service",
+              "kind": "brokerage",
+              "amount": 165,
+              "page": 1,
+              "quote": "Customs entry service | $165.00"
+            },
+            {
+              "label": "Customs entry service",
+              "kind": "brokerage",
+              "amount": 165,
+              "page": 1,
+              "quote": "Customs entry service | $165.00"
+            },
+            {
+              "label": "Air import handling",
+              "kind": "other",
+              "amount": 60,
+              "page": 1,
+              "quote": "Air import handling | $60.00"
+            }
+          ],
+          "total": 10706.99,
+          "page": 1
+        }
+      }
+    },
+    {
+      "id": "pcb-48455",
+      "ok": true,
+      "ms": 14216,
+      "model": "google/gemini-2.5-flash",
+      "diffs": [],
+      "extraction": {
+        "broker": {
+          "name": "Pacific Crest Customs Brokerage",
+          "invoiceNumber": "PCB-48455",
+          "invoiceDate": "2026-02-06",
+          "dueDate": "2026-03-08"
+        },
+        "importer": {
+          "name": "Northgate Home Goods, Inc.",
+          "importerNumber": "84-2917465-00"
+        },
+        "entry": {
+          "entryNumber": "PC7-4845509-4",
+          "entryDate": "2026-02-03",
+          "port": "2704 Los Angeles, CA",
+          "mode": "ocean"
+        },
+        "lines": [
+          {
+            "lineNo": 1,
+            "description": "Aluminum shelving brackets",
+            "hts": "7616.99.5190",
+            "origin": "CN",
+            "enteredValue": 240000,
+            "page": 2,
+            "tariffs": [
+              {
+                "code": "7616.99.5190",
+                "description": "Aluminum articles, general rate",
+                "ratePct": 2.5,
+                "dutyFiled": 6000,
+                "page": 2,
+                "quote": "7616.99.5190 | Aluminum articles, general rate | 2.5% | $6,000.00"
+              },
+              {
+                "code": "9903.85.08",
+                "description": "Section 232 aluminum derivatives",
+                "ratePct": 50,
+                "dutyFiled": 120000,
+                "page": 2,
+                "quote": "9903.85.08 | Section 232 aluminum derivatives | 50% | $120,000.00"
+              },
+              {
+                "code": "9903.88.03",
+                "description": "Section 301 List 3",
+                "ratePct": 25,
+                "dutyFiled": 60000,
+                "page": 2,
+                "quote": "9903.88.03 | Section 301 List 3 | 25% | $60,000.00"
+              },
+              {
+                "code": "9903.01.24",
+                "description": "IEEPA fentanyl (China)",
+                "ratePct": 10,
+                "dutyFiled": 24000,
+                "page": 2,
+                "quote": "9903.01.24 | IEEPA fentanyl (China) | 10% | $24,000.00"
+              },
+              {
+                "code": "9903.01.33",
+                "description": "Reciprocal exemption (232 article)",
+                "ratePct": 0,
+                "dutyFiled": 0,
+                "page": 2,
+                "quote": "9903.01.33 | Reciprocal exemption (232 article) | Free | $0.00"
+              }
+            ]
+          }
+        ],
+        "cbp": {
+          "totalDuty": 210000,
+          "mpf": 651.5,
+          "hmf": 300,
+          "page": 2
+        },
+        "invoice": {
+          "charges": [
+            {
+              "label": "Customs duty advanced on your behalf",
+              "kind": "duty",
+              "amount": 210000,
+              "page": 1,
+              "quote": "Customs duty advanced on your behalf | $210,000.00"
+            },
+            {
+              "label": "Merchandise processing fee (MPF)",
+              "kind": "mpf",
+              "amount": 831.36,
+              "page": 1,
+              "quote": "Merchandise processing fee (MPF) | $831.36"
+            },
+            {
+              "label": "Harbor maintenance fee (HMF)",
+              "kind": "hmf",
+              "amount": 300,
+              "page": 1,
+              "quote": "Harbor maintenance fee (HMF) | $300.00"
+            },
+            {
+              "label": "Entry filing fee",
+              "kind": "brokerage",
+              "amount": 185,
+              "page": 1,
+              "quote": "Entry filing fee | $185.00"
+            },
+            {
+              "label": "ISF filing",
+              "kind": "brokerage",
+              "amount": 45,
+              "page": 1,
+              "quote": "ISF filing | $45.00"
+            }
+          ],
+          "total": 211361.36,
+          "page": 1
+        }
+      }
+    }
+  ]
+}
